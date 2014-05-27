@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=10" />
+	<!-- <meta http-equiv="refresh" content="3" /> -->
+	<title>Jquery mmenu</title>
+	<link rel="stylesheet" href="css/demo.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/jquery.mmenu.css">
+	<style>
+	.wrp{padding:10px;}.header{background:#FF5E5E;}#menu {background: #555;}.mm-list > li:hover{background: #333;}
+	.title{font-size: 1.4em;}.bdr{border:3px solid #e5e5e5;}.pd{padding:10px; margin:5px;}.row{margin:0;}
+	</style>
+</head>
+<body>
+<div id="page">
+		 <div class="header">
+			<a href="#menu"></a>
+			<div class="brand pull-left title">FED Eeret</div>
+			</div>
+			
+			<div id="menu">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">About Me</a></li>
+					<li><a href="">Templates</a></li>
+					<li><a href="">Components</a></li>
+					<li><a href="">Connect Me</a></li>
+				</ul>
+			</div>
+
+	<!-- <div class="jumbotron bannerbg">
+		<div class="container">
+			<h2 class="page-header">Front End Development</h2>
+			<p>The most popular front-end framework for developing responsive, mobile first projects on the web. Millions of amazing sites across the web are being built with Bootstrap. Get started on your own with our growing collection of examples or by exploring some of our favorites.</p>
+			<p></p>
+		</div>
+	</div> -->
+
+<!-- container -->
+	<div class="wrp">
+		<div class="row">
+			<div class="col-md-3 col-sm-3 bdr pd">Orange</div>
+			<div class="col-md-3 col-sm-3 bdr pd">green</div>
+			<div class="col-md-3 col-sm-3 bdr pd">red</div>
+			<div class="col-md-3 col-sm-3 bdr pd">yellow</div>
+			<div class="col-md-3 col-sm-3 bdr pd">blue</div>
+			<div class="col-md-3 col-sm-3 bdr pd">gray</div>
+		</div>
+	</div>
+</div>	
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.mmenu.js"></script>
+	<script>
+		$(function(){
+			$('#menu').mmenu({
+					classes: 'mm-light'
+				});
+		});
+	</script>
+</body>
+</html>
