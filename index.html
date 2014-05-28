@@ -8,9 +8,13 @@
 	<link rel="stylesheet" href="css/demo.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/jquery.mmenu.css">
+		<link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
 	<style>
-	.wrp{padding:10px;}.header{background:#FF5E5E;}#menu {background: #555;}.mm-list > li:hover{background: #333;}
-	.title{font-size: 1.4em;}.bdr{border:3px solid #e5e5e5;}.pd{padding:10px; margin:5px;}.row{margin:0;}
+	body{background: #ecebe8;}.wrp{padding:10px;}.header{background:#FF5E5E;}#menu {background: #555;}.mm-list > li:hover{background: #333;}
+	.title{font-size: 1.4em;}.bdr{border:0px solid #e5e5e5;}.box-container{padding:10px; background: #fcfcfc; border:1px solid #dddcd6; margin:3px; }.row{margin:0;}
+	.box-container h2{font-family: 'Rokkitt', serif; margin-top: 10px; color: #40597E;}.box-container p{font-family: 'Oxygen', sans-serif;font-size:1.1em;line-height:1.3em; color:#727272}
+	.box-container:hover{background:#FC756F; cursor: alias;} .box-container:hover p{color:#fff;} .box-container:hover h2{color:#FFF586;}
 	</style>
 </head>
 <body>
@@ -41,13 +45,49 @@
 <!-- container -->
 	<div class="wrp">
 		<div class="row">
-			<div class="col-md-3 col-sm-3 bdr pd">Orange</div>
-			<div class="col-md-3 col-sm-3 bdr pd">green</div>
-			<div class="col-md-3 col-sm-3 bdr pd">red</div>
-			<div class="col-md-3 col-sm-3 bdr pd">yellow</div>
-			<div class="col-md-3 col-sm-3 bdr pd">blue</div>
-			<div class="col-md-3 col-sm-3 bdr pd">gray</div>
-		</div>
+            <div class="col-md-4 col-sm-6 col-sm-4 bdr">
+				<div class="box-container">
+					<h2>HTML 5</h2>
+					<p>It was specially designed to deliver rich content without the need for additional plugins. The current version delivers everything from animation to graphics, music to movies, and can also be used to build complicated web applications.</p>
+					<p>HTML5 is also cross-platform. It is designed to work whether you are using a PC, or a Tablet, a Smartphone, or a Smart TV.</p>
+				</div>
+			</div>
+            <div class="col-md-4 col-sm-6 col-sm-4 bdr">
+				<div class="box-container">
+					<h2>CSS 3</h2>
+					<p>CSS3 is the latest standard for CSS. CSS3 is completely backwards-compatible with earlier versions of CSS.</p>
+					<p>Despite contemporary browsers supporting a wealth of CSS3 properties, most designers and developers seem to focus on the quite harmless properties such as border-radius, box-shadow or transform. </p>
+				</div>
+			</div>
+            <div class="col-md-4 col-sm-6 col-sm-4 bdr">
+				<div class="box-container">
+					<h2>Javascript</h2>
+					<p>JavaScript is the most popular programming language in the world. It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser and communicate asynchronously.</p>
+					<p>It is also being used in server-side programming.</p>
+				</div>
+			</div>
+             <div class="col-md-4 col-sm-6 col-sm-4 bdr">
+				<div class="box-container">
+					<h2>jQuery</h2>
+					<p>jQuery is a Javascript Library and it's greatly simplifies Javascript programming. jQuery is a lightweight, "write less, do more", JavaScript library.</p>
+					<p>jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code.</p>
+				</div>
+			</div>
+             <div class="col-md-4 col-sm-6 col-sm-4 bdr">
+				<div class="box-container">
+					<h2>Bootstrap</h2>
+					<p>Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development.</p>
+					<p>The biggest advantage of using Twitter Bootstrap is that it comes with free set of tools for creating flexible and responsive web layouts as well as common interface components.</p>
+				</div>
+			</div>
+             <div class="col-md-4 col-sm-6 col-sm-4 bdr">
+				<div class="box-container">
+					<h2>Photoshop</h2>
+					<p>It’s not a stretch to say that Photoshop was once regarded as the quintessential Web design tool, a sign that its fandom reached more than just photographers.</p>
+					<P>Refrigerator magnets, pillows and even tattoos have shown homage to the unmistakable UI. Let’s face it: Photoshop is the software we’re identified with, and its place in Web design history is substantial.</p>
+				</div>
+			</div>
+        </div>
 	</div>
 </div>	
 	<script src="js/jquery.js"></script>
