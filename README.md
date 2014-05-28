@@ -1,4 +1,4 @@
 jquery-mmenu-bootstrap
 ======================
 
-Jquery Mmenu within Bootstrap
+Jquery mmenu with Bootstrap
